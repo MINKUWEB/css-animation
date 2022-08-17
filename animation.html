@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<style type="text/css">
+		#main{
+			width: 500px;
+			height: 500px;
+			border: 10px solid black;
+			margin: 100px auto; /* 100px top se or bottom se esliye diya gya hai 0 auto se center hota hai 100px mtlb center me top se 100px niche ho */
+			background-image: url(a.jpg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			animation: abhi 15s infinite;
+		}
+		@keyframes abhi{
+			 0%{
+       background-image: url(b.jpg);background-size: cover; 
+    }
+    25%{
+       background-image: url(c.jpg);background-size: cover;
+    }
+    50%{
+       background-image: url(d.jpg);background-size: cover;
+    }
+
+    75%{
+     background-image: url(a.jpg);background-size: cover;
+    }
+    100%{
+       background-image: url(c.jpg);background-size: cover;
+
+    }
+}
+
+
+}
+		}
+	</style>
+</head>
+<body>
+<div id="main">
+	
+</div>
+</body>
+</html>
